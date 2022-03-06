@@ -1,0 +1,7 @@
+clr1=input("Enter list of colors with comma seperated")
+clr2=input("Enter list of colors with comma seperated")
+print(clr1)
+print(clr2)
+clr11=set(clr1.split(','))
+clr22=set(clr2.split(','))
+print("The defference b/w two sets of colors is", clr11.difference(clr22))
